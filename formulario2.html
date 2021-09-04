@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio en clase 1</title>
+</head>
+<body>
+    <header>
+        <h1>Inicio</h1>
+       <nav>
+           <li><a href="#">Página 1</a></li>
+           <li><a href="pagina2.html">Página 2</a></li>
+           <li><a href="pagina3.html">Página 3</a></li>
+           <li><a href="#footer">Ir al footer</a></li>
+           <li><a href="tablaTrabajoGrupo2.html">Tabla</a></li>
+       </nav>
+    </header>
+    <hgroup>
+        <hr>
+        <strong>¿TIENES ALGO PARA DECIR?</strong>
+    <form action="../form-result.php" target="_blank">
+        <p>A través de este formulario puedes enviarme un mensaje para ayudarme a corregir los errores, a mejorar mi blog, o simplemente para decir mola.</p>        <p>Cualquier cosa que tengas para decir es bienvenida. Así que no lo dudes y déjame un mensaje. Estaré feliz de contestarte!</p>
+        
+        <fieldset>
+            <legend>Mensaje</legend>
+            <p><label>Tu Nombre: <input type="text" name="nombre"></label></p>
+            <p><label>Tu dirección de Correo: <input type="email" name="email"></label></p>
+            <p><label>Tu mensaje: <br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea></label>
+            </p>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Nuevos temas</legend>
+            <p>¿Qué te gustaría que trate en mi sitio?:<br><br>
+                <label><input type="checkbox" name="html"> HTML</label>
+                <label><input type="checkbox" name="graficos"> Gráficos</label>
+                <label><input type="checkbox" name="videojuegos"> Videojuegos</label>
+                <label><input type="checkbox" name="arte"> Arte</label>
+                <label><input type="checkbox" name="musica"> Música</label>
+            </p>
+        </fieldset><br>
+        <input type="submit" value="Enviar Mensaje">
+        <input type="reset" value="Comenzar de Nuevo">
+    </form>
+    <hr>
+    </hgroup>
+    
+</body>
+</html>
