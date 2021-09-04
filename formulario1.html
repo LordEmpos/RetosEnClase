@@ -26,11 +26,20 @@
     <form action="../form-result.php" target="_blank">
         <fieldset>
             <legend>Mensaje</legend> 
-            <label>Nombre <input type="text" name="nombrecompleto"> </label><br/>
-            <label>Tu direccion de correo: <input type="text" name="direccion"></label><br/>
+            <label>Nombre <input type="text" name="nombrecompleto"> </label><br/><br/>
+            <label>Tu direccion de correo: <input type="text" name="direccion"></label><br/><br/>
             <label>Tu mensaje: <br/>
                 <textarea name="Mensaje" id="" cols="30" rows="5"></textarea></label><br/>            
         </fieldset>
-
+        <fieldset>
+            <legend>Estado laboral</legend>
+            <p>¿Trabaja?: <br/>
+                <input type="radio" name="estadoLaboral" value="si" checked>Si<br/>
+                <input type="radio" name="estadoLaboral" value="no">No<br/>
+                </p>
+        </fieldset>
+        <br/>
+        <input type="submit" value="Enviar mensaje">
+        <input type="reset" value="Comenzar de cero">
     </form>
 </body>
