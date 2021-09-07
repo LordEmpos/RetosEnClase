@@ -46,10 +46,20 @@
 #section{
     height: 96%;
     width: 60%;
-    background: aquamarine;
+    background: darkkhaki;
     border-radius: 1em;
     float: left;
     margin: 0.5em;
-    padding: 5px;
+    padding: 4px;
     color: blue;
+}
+#aside{
+    height: 96%;
+    width: 35%;
+    background: darkseagreen;
+    border-radius: 1em;
+    float: right;
+    margin: 0.5em;
+    padding: 3px;
+    color: deeppink;
 }
