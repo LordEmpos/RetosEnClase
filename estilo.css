@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#contenedor{
+    width: 1200px;
+    /* background: cadetblue; */
+    height: 800px;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+#header{
+    height: 15%;
+    background: darkgray;
+    border-radius: 1em;
+    margin: 0.5em;
+    padding: 10px;
+    text-align: center;
+    color: darkred;
+    font: italic;
+}
+#navegacion{
+    height: 10%;
+    background: chocolate;
+    border-radius: 1em;
+    margin: 0.5em;
+    color: darkblue;
+    font: medium;
+    padding: 10px;
+}
+#contenido{
+    height: 50%;
+    border-radius: 1em;
+    margin: 0.5em;
+    padding: 10px;
+    background: aquamarine;
+}
+#footer{
+    height: 10%;
+    background: coral;
+    color: darkblue;
+    border-radius: 1em;
+    margin: 0.5em;
+    padding: 1em;
+}
+#section{
+    height: 96%;
+    width: 60%;
+    background: aquamarine;
+    border-radius: 1em;
+    float: left;
+    margin: 0.5em;
+    padding: 5px;
+    color: blue;
+}
