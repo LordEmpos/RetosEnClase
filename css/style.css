@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor{
+    width: auto;
+    height: 500px;
+    margin: 0.5em 5em;
+    padding: 0.5em;
+    /* background-color: grey; */
+}
+#header{
+    height: 15%;
+    background: darkgray;
+    border-radius: 1em;
+    margin: 0.5em 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.logo{
+    width: 70px;
+    margin-top: 5px;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+.title, .logo{
+    display: inline-block;
+}
+#nav{
+    height: 10%;
+    background-color: chocolate;
+    border-radius: 1em;
+    margin: 0.5em 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+#contenido{
+    height: 65%;
+    background-color: cornflowerblue;
+    border-radius: 1em;
+    margin: 0.5em 0;
+    padding: 10px;
+}
+#section, #aside{
+    height: 91%;
+    background-color: aliceblue;
+    margin: 0.5%;
+    border-radius: 1em;
+    padding: 10px;
+}
+#section{
+    width: 60%;
+    float: left;
+}
+.articulo{
+    height: 15%;
+    background-color: grey;
+    border-radius: 1em;
+    margin: 0.5em;
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+#aside{
+    width: 32.5%;
+    float: right;
+}
+#footer{
+    height: 10%;
+    background-color: darkcyan;
+    border-radius: 1em;
+    color: white;
+    margin: 0.5em 0;
+    padding: 10px;
+    text-align: center;
+}
+.consulta, .botonconsulta{
+    padding: 5px 10px;
+    border: none;
+    margin: 5px;
+}
+.botonconsulta{
+    background-color: brown;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+.botonconsulta:hover{
+    background-color: rgb(220, 173, 20);
+    box-shadow: 3px 3px 5px #0606064f;
+}
+.art1{
+    background-color: rgb(172, 168, 63);
+}
+.art2{
+    background-color: rgb(63, 165, 172);
+}
+.art3{
+    background-color: rgb(63, 147, 172);
+}
+.art4{
+    background-color: rgb(63, 67, 172);
+}
+

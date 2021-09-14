@@ -1,0 +1,72 @@
+/* body{background-color: rgb(53, 53, 53); color: #fff;} */
+h1{
+    background-color: darkgoldenrod; 
+    color: firebrick;
+}
+h2{
+    background-color: greenyellow;
+    color: indigo;
+}
+h1, h2{
+    background-color: khaki;
+    color: mediumblue;
+}
+/* p{
+    background-color: rgba(206, 119, 12, 0.762);
+} */
+.verso{
+    margin-left: 10%;
+    background-color: midnightblue;
+    color: white;
+}
+
+.verso2{
+    margin-right: 10%;
+    background-color: green;
+    color: white;
+}
+
+#golondrinas{
+    background-color: cornflowerblue;
+    color: red;
+}
+
+#texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    margin: 12em 15em;
+    padding: 1em;
+    text-align: center;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2) inset;
+}
+
+/* Modelo de cajas */
+
+.box{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.box p{
+    margin-top: 40%;
+}
+#two{
+    position: relative;
+    background-color: blue;
+    top: 20px;
+    left: 20px;
+}
+#three{
+    position: absolute;
+    background-color: grey;
+    top: 20px;
+    left: 20px;
+}
+
